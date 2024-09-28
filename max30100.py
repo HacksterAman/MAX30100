@@ -1,3 +1,19 @@
+# ---------------------------------------------------------------
+# MAX30100 MicroPython Library for Heart Rate and SpO2 Measurement
+# Author: Aman Singh
+# Optimized for memory usage 
+#
+# Version: 1.0.0
+# License: MIT License
+#
+# Credits: This library was inspired by the original MAX30100 drivers,
+#          with enhancements for efficient memory management and SoftI2C support.
+#          Special thanks to the open-source community for feedback and contributions.
+#
+# For inquiries or contributions, feel free to open an issue or pull request
+# on the official GitHub repository.
+# ---------------------------------------------------------------
+
 # Registers for MAX30100
 REGISTERS = {
     "INT_STATUS": 0x00,
