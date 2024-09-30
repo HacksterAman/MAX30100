@@ -83,4 +83,3 @@ class MAX30100:
     def ir(self):
         """Get the latest infrared value."""
         return self.buffer_ir
-
